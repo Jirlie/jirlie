@@ -236,12 +236,12 @@ login.login_handlers = (function () {
 				if (window.innerWidth <= 768) {
 				  let source = document.createElement("source");
 				  video.append(source);
-				  source.src = `assets/video/mobile_hd.mp4`;
+				  source.src = `assets/erpnext/video/mobile_hd.mp4`;
 				  source.type = `video/mp4`;
 				} else {
 				  let source = document.createElement("source");
 				  video.append(source);
-				  source.src = `assets/video/desktop_hd.MP4`;
+				  source.src = `assets/erpnext/video/desktop_hd.MP4`;
 				  source.type = `video/mp4`;
 				}
 				video.addEventListener("ended", () => {

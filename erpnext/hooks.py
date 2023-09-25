@@ -2,14 +2,14 @@ from frappe import _
 
 app_name = "erpnext"
 app_title = "Jirlie"
-app_publisher = "Frappe Technologies Pvt. Ltd."
+app_publisher = "Neu Ocean Technologies Ltd."
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
 app_color = "#e74c3c"
 app_email = "info@Jirlie.com"
 app_license = "GNU General Public License (v3)"
-source_link = "https://github.com/frappe/erpnext"
-app_logo_url = "/assets/images/Jirlie.gif"
+source_link = "https://github.com/jirlie/jirlie"
+app_logo_url = "/assets/erpnext/images/Jirlie.gif"
 
 
 develop_version = "14.x.x-develop"
@@ -82,8 +82,8 @@ calendars = [
 website_generators = ["Item Group", "Website Item", "BOM", "Sales Partner"]
 
 website_context = {
-	"favicon": "/assets/images/Jirlie.ico",
-	"splash_image": "/assets/images/Jirlie.gif",
+	"favicon": "/assets/erpnext/images/Jirlie.ico",
+	"splash_image": "/assets/erpnext/images/Jirlie.gif",
 }
 
 # nosemgrep
